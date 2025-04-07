@@ -1,4 +1,4 @@
-resource "aws_ebs_volume" "example5" {
+resource "aws_ebs_volume" "example6" {
   availability_zone = "us-west-2a"
   size              = 40
   encrypted         = false
