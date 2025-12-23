@@ -4,6 +4,10 @@
 @secure()
 param password string
 
+@description('password')
+@secure()
+param password string
+
 // fail
 
 @description('default password')
