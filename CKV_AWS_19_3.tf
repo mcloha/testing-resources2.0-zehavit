@@ -1,3 +1,4 @@
+#EDITED
 resource "aws_s3_bucket_server_side_encryption_configuration" "bad_sse" {
   bucket = aws_s3_bucket.bad_bucket.bucket
 
